@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Css
+import "./style.css"
+
 // Components
 import NavBar from "./components/NavBar/NavBar";
 
@@ -29,9 +32,8 @@ function App() {
 
   return (
     <>
-     <h1>Hello Word</h1>
-     {/* <NavBar /> */}
      <BrowserRouter>
+     <NavBar />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/filmes" element={<Filmes/>} />

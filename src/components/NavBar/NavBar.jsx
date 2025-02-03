@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+// Css
 import "./NavBar_Style.css"
 
 export default function NavBar() {
@@ -9,12 +11,12 @@ export default function NavBar() {
             <p>CineFlix</p>
         </div>
 
-        <nav>
+        <nav className='containerMenu'>
             <ul>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>Filmes</a></li>
-                <li><a href='#'>Series</a></li>
-                <li><a href='#'>Apoie</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/filmes">Filmes</Link></li>
+                <li><Link to="/series">Series</Link></li>
+                <li><Link to="/apoie">Apoie o Projeto</Link></li>
             </ul>
         </nav>
     </header>
