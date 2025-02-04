@@ -2,6 +2,15 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>Página principal</div>
+    <main>
+      <section>
+        <div>
+          <h1>Filmes mais assistidos</h1>
+        </div>
+        <div className="cardFilmes">
+          
+        </div>
+      </section>
+    </main>
   )
 }

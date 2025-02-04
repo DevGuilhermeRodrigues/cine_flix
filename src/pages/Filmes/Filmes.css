@@ -1,0 +1,43 @@
+.cardFilmes {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardFilmes h1 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: #FAF7F0;
+}
+
+.subtitulo {
+    text-align: left;
+    margin: 0 0 1em 1em;
+    padding: .3em;
+    border-left: 3px solid #B82132;
+    color: #FAF7F0;
+}
+
+.containerCardsFilme {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.descriptionFilme {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    border: 1px solid;
+}
+
+.descriptionFilme {
+    font-size: .7em;
+}
+
+.descriptionFilme img {
+    width: 100%;
+}

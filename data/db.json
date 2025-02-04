@@ -3,27 +3,50 @@
       {
         "id": "1",
         "name": "Ainda estou aqui",
-        "diretor": "Walter Salles"
+        "diretor": "Walter Salles",
+        "img": "https://br.web.img2.acsta.net/c_150_200/img/b1/35/b1351babe7a777b7a97eded3db356990.jpg"
       },
       {
         "id": "2",
         "name": "Mufasa",
-        "diretor": "Barry Jenkins"
+        "diretor": "Barry Jenkins",
+        "img": "https://br.web.img2.acsta.net/c_150_200/img/7e/31/7e31d6246c6f32fbb227b4739fb5440f.jpg"
       },
       {
         "id": "3",
         "name": "Sonic 3 - o Filme",
-        "diretor": "Jelf Fowler"
+        "diretor": "Jelf Fowler",
+        "img": "https://br.web.img3.acsta.net/c_150_200/pictures/24/01/23/19/39/5587494.jpg"
       },
       {
         "id": "4",
         "name": "Moana 2",
-        "diretor": "David G"
+        "diretor": "David G",
+        "img": "https://br.web.img2.acsta.net/c_310_420/img/fb/8a/fb8a2dd78cc344d9b2fdf5e0a4bb4026.jpeg"
       },
       {
         "id": "5",
         "name": "Coringa: Delírio a dois",
-        "diretor": "Todd Phillips"
+        "diretor": "Todd Phillips",
+        "img": "https://br.web.img3.acsta.net/c_310_420/img/f2/30/f230e8db0c9d1ccb4ee8f243fcde7705.png"
+      }
+    ],
+
+    "series": [
+      {
+        "id": "1",
+        "name": "Simpsons",
+        "diretor": "David G"
+      },
+      {
+        "id": "2",
+        "name": "Narcos",
+        "diretor": "David G"
+      },
+      {
+        "id": "3",
+        "name": "Sobrenatural",
+        "diretor": "David G"
       }
     ]
   }

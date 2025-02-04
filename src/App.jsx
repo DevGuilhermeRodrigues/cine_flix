@@ -14,9 +14,10 @@ import Series from "./pages/Series/Series";
 import Apoie from "./pages/Apoie/Apoie"
 
 // URl Api
-const url = "http://localhost:3001/movies";
+// const urlMovies = "http://localhost:3001/movies";
 
 function App() {
+  const [url, setUrl] = useState("http://localhost:3001/movies")
   const [filmes, setFilmes] = useState([]);
 
   useEffect(() => {
@@ -36,11 +37,12 @@ function App() {
      <NavBar />
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/filmes" element={<Filmes/>} />
+        <Route path="/filmes" element={<Filmes movies={filmes} />} />
         <Route path="/series" element={<Series/>} />
         <Route path="/apoie" element={<Apoie/>} />
       </Routes>
      </BrowserRouter>
+
 
     </>
   )
