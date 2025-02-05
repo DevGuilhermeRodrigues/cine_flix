@@ -1,25 +1,22 @@
 import React from 'react'
 
+// components
+import HeaderPages from '../../components/NavBar/HeaderPages/HeaderPages'
+
 // Css
 import "./Filmes.css"
+import Cards from '../../components/NavBar/Cards/Cards'
+
+const url = "http://localhost:3001/movies";
 
 export default function Filmes({movies}) {
-
+  // const [url, setUrl] = useState("http://localhost:3001/movies");
   return (
     <>
     <main>
      <section className='cardFilmes'>
-      <h1>Filmes online</h1>
-      <h2 className='subtitulo'>Os melhores filmes para assistir</h2>
-      <div className='containerCardsFilme'>
-        {movies && movies.map((filme) => (
-          <div key={filme.id} className='descriptionFilme'>
-            <img src={filme.img} alt={filme.name} />
-            <h2>{filme.name}</h2>
-            <p>{filme.diretor}</p>
-          </div>
-        ))}
-      </div>
+      <HeaderPages titulo="Filmes online" subtitulo="Os melhores filmes para assistir"/>
+      <Cards url={url}/>
      </section>
     </main>
     </>

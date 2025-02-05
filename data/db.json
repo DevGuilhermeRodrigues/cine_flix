@@ -35,18 +35,33 @@
     "series": [
       {
         "id": "1",
-        "name": "Simpsons",
-        "diretor": "David G"
+        "name": "Game of Thrones",
+        "diretor": "David G",
+        "img": "https://br.web.img3.acsta.net/c_150_200/pictures/19/03/21/16/15/4239577.jpg"
       },
       {
         "id": "2",
-        "name": "Narcos",
-        "diretor": "David G"
+        "name": "Breaking Bad",
+        "diretor": "David G",
+        "img": "https://br.web.img2.acsta.net/c_150_200/pictures/14/03/31/19/28/462555.jpg"
       },
       {
         "id": "3",
-        "name": "Sobrenatural",
-        "diretor": "David G"
+        "name": "Supernatural",
+        "diretor": "David G",
+        "img": "https://br.web.img3.acsta.net/c_150_200/pictures/18/11/12/13/38/3629995.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Vikings",
+        "diretor": "David G",
+        "img": "https://br.web.img3.acsta.net/c_150_200/pictures/19/12/04/22/35/3436063.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Round 6",
+        "diretor": "David G",
+        "img": "https://br.web.img2.acsta.net/c_150_200/pictures/21/09/14/18/49/5442347.jpg"
       }
     ]
   }

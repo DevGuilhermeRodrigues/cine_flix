@@ -1,15 +1,12 @@
 import React from 'react'
 
+import HeaderPages from '../../components/NavBar/HeaderPages/HeaderPages'
+
 export default function Home() {
   return (
     <main>
-      <section>
-        <div>
-          <h1>Filmes mais assistidos</h1>
-        </div>
-        <div className="cardFilmes">
-          
-        </div>
+      <section className='CabecalhoHome'>
+        <HeaderPages titulo="Mais assistidos" subtitulo="Conheça o melhor do cinema"/>
       </section>
     </main>
   )

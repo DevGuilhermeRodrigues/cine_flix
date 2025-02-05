@@ -1,0 +1,24 @@
+.CardPrincipal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.CardCartaz {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    font-size: .7em;
+    padding-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.CardCartaz img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.CardCartaz h2 {
+    margin: .4em 0;
+}
